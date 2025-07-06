@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="5.0" etag="XML" version="22.1.16">
+  <diagram name="E-Commerce User Journey" id="user-journey-flow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Start Node -->
+        <mxCell id="start" value="🏁 User Visits Website" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Homepage -->
+        <mxCell id="homepage" value="🏠 Homepage Display&#xa;Featured Products&#xa;Categories&#xa;Recent Posts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Browse Decision -->
+        <mxCell id="browse_decision" value="🔍 Browse&#xa;Products?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Product Catalog -->
+        <mxCell id="catalog" value="📦 Product Catalog&#xa;Apply Filters&#xa;Sort & Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Info Pages -->
+        <mxCell id="info" value="ℹ️ About/Contact&#xa;Blog Posts&#xa;Company Info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="420" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Product Detail -->
+        <mxCell id="product_detail" value="📱 Product Detail&#xa;Reviews &amp; Ratings&#xa;Related Products&#xa;Specifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Auth Check -->
+        <mxCell id="auth_check" value="🔐 User&#xa;Logged In?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Login -->
+        <mxCell id="login" value="🚪 Login Page&#xa;Email &amp; Password&#xa;Social Login&#xa;Register Option" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Registration -->
+        <mxCell id="register" value="📋 Registration&#xa;Name, Email&#xa;Password&#xa;Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="780" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- User Actions -->
+        <mxCell id="user_actions" value="⚡ User Actions" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="800" width="200" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Cart Action -->
+        <mxCell id="cart_action" value="🛒 Add to Cart&#xa;Quantity Selection&#xa;Stock Validation&#xa;Update Cart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="940" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Wishlist Action -->
+        <mxCell id="wishlist_action" value="❤️ Add to Wishlist&#xa;Save for Later&#xa;Wishlist Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="240" y="940" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Review Action -->
+        <mxCell id="review_action" value="⭐ Write Review&#xa;Rating &amp; Comments&#xa;Product Feedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="940" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Cart View -->
+        <mxCell id="cart_view" value="🛒 View Cart&#xa;Update Quantities&#xa;Apply Coupons&#xa;Remove Items" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1080" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Checkout -->
+        <mxCell id="checkout" value="💳 Checkout&#xa;Shipping Address&#xa;Payment Method&#xa;Order Summary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Payment -->
+        <mxCell id="payment" value="💰 Payment&#xa;PayPal/Card/COD&#xa;Payment Processing&#xa;Confirmation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Order Complete -->
+        <mxCell id="order_complete" value="🎉 Order Complete&#xa;Confirmation Email&#xa;Order Tracking&#xa;PDF Invoice" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1460" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- User Dashboard -->
+        <mxCell id="user_dashboard" value="👤 User Dashboard&#xa;Profile Management&#xa;Order History&#xa;Account Settings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Admin Dashboard -->
+        <mxCell id="admin_dashboard" value="🎛️ Admin Dashboard&#xa;Manage Products&#xa;Manage Orders&#xa;User Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="900" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        
+        <!-- Connections -->
+        <mxCell id="edge1" edge="1" parent="1" source="start" target="homepage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge2" edge="1" parent="1" source="homepage" target="browse_decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge3" edge="1" parent="1" source="browse_decision" target="catalog">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge3_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fontColor=#2E7D32;" value="Yes" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry">
+              <mxPoint x="20" y="0" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge4" edge="1" parent="1" source="browse_decision" target="info">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge4_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fontColor=#D32F2F;" value="No" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry">
+              <mxPoint x="-20" y="0" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge5" edge="1" parent="1" source="catalog" target="product_detail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge6" edge="1" parent="1" source="product_detail" target="auth_check">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge7" edge="1" parent="1" source="auth_check" target="login">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge7_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fontColor=#D32F2F;" value="No" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry">
+              <mxPoint x="0" y="0" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge8" edge="1" parent="1" source="auth_check" target="user_actions">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge8_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1;fontColor=#2E7D32;" value="Yes" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry">
+              <mxPoint x="0" y="0" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge9" edge="1" parent="1" source="login" target="register">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge9_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="New User" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge10" edge="1" parent="1" source="login" target="user_dashboard">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge10_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="User Role" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge11" edge="1" parent="1" source="login" target="admin_dashboard">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge11_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Admin Role" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge12" edge="1" parent="1" source="user_actions" target="cart_action">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge12_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Cart" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge13" edge="1" parent="1" source="user_actions" target="wishlist_action">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge13_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Wishlist" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge14" edge="1" parent="1" source="user_actions" target="review_action">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge14_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Review" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge15" edge="1" parent="1" source="cart_action" target="cart_view">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge16" edge="1" parent="1" source="cart_view" target="checkout">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge17" edge="1" parent="1" source="checkout" target="payment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="edge18" edge="1" parent="1" source="payment" target="order_complete">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
+        <!-- Back to catalog arrows -->
+        <mxCell id="edge19" edge="1" parent="1" source="info" target="catalog" style="curved=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge19_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontStyle=2;" value="Browse" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+        <mxCell id="edge20" edge="1" parent="1" source="register" target="user_actions" style="curved=1;">
+          <mxGeometry relative="1" as="geometry" />
+          <mxCell id="edge20_label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Account Created" connectable="0" vertex="1">
+            <mxGeometry x="-0.2" y="-20" relative="1" as="geometry" />
+          </mxCell>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
